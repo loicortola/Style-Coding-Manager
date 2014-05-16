@@ -1,4 +1,5 @@
-# DMASCM (DesignMyApp Style Coding Manager)
+# DMASCM
+### (DesignMyApp Style Coding Manager)
 # How to work with Git repository and DesignMyApp
 
 # 1: Prerequisites
@@ -19,23 +20,27 @@
 
 # 3: Conventions
 
-* **Naming**
+###Naming  
 
-	If you want to add a feature to the project, your branch should be named like this :   
-	`feature/nameOfTheFeature`
+* branches
 
-	If you work on a Bug reported in Mantis (with an id), your branch should be named like this :   
-	`bugfix/_idDuBeug_`
+If you want to add a feature to the project, your branch should be named like this :   
+`feature/nameOfTheFeature`
 
-	If you work on an Hotfix (not reported in Mantis, your should named your branch like this :   
-	`hotfix/_VeryShortDescription_`
+If you work on a Bug reported in Mantis (with an id), your branch should be named like this :   
+`bugfix/_idDuBeug_`
 
-	*Add the conventions for naming tagging and snapshot*
+If you work on an Hotfix (not reported in Mantis, your should named your branch like this :   
+`hotfix/_VeryShortDescription_`
+
+* Tag, snapshot and release
+
+*-----COMING SOON-----*
 
 
-* **Exceptions *(very rare)***
+###Exceptions *(very rare)*
 
-	If you spot a bug and you are sure you can correct it in a single commit, you *can* work directly on branch master but you have to be sure of yourself.
+If you spot a bug and you are sure you can correct it in a single commit, you *can* work directly on branch master but you have to be sure of yourself.
 
 
 # 4: Work flow in DMA
