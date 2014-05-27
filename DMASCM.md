@@ -35,7 +35,22 @@ If you work on an Hotfix (not reported in Mantis, your should named your branch 
 
 * Tag, snapshot and release
 
-*-----COMING SOON-----*
+Each snapshot should be tagged like this :     
+`1.0.0-SNAPSHOT`
+
+Each release should be tagged like this :       
+`1.0.0`
+
+With each release, create a **maintenance branch** with the name `1.0.x` and commit all your bugfix and hotfix changes in **this** branch
+
+When a new release is on, use `git cherry-pick` to apply your bugfix and hotfix commits to the master branch       
+> When using `git cherry-pick`, your HEAD must be on the *1.0.x* branch. Indeed, you *duplicate* your bugfix and hotfix commits in the *master* branch.     
+
+When you release, tag your maintenance branch `1.0.1` for the first release, then `1.0.2` and so on until the next big release which will be tagged        
+`1.1.0 SNAPSHOT`
+
+At this point, create a new maintenance branch named `1.1.x` and follow the same rules as above.
+
 
 
 ###Exceptions *(very rare)*
