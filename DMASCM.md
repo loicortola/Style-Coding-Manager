@@ -167,18 +167,20 @@ and update it
 `git fetch`
 > if you are scared you can use `git fetch --all` or `git fetch origin master` but logically, the `git fetch` command does the same thing.
 
+Then rebase your *master* branch
+
+`git rebase origin/master`       
+> In this state, you may have some conflict to solve. Use your *merge-tool* invoked by `git mergetool` to solve them.
+
+> If you do not have conflicts here, you are just lucky. 
+
 Then go back to your branch
 
 `git checkout myBranch`
 
 and put your branch on the top of the tree with
 
-`git rebase origin/master`
-> Do not forget to put `origin/master` and not only `master` to avoid branch divergence.
-
-> In this state, you may have some conflict to solve. Use your *merge-tool* to solve them.
-
-> If you do not have conflict here, you are just lucky. 
+`git rebase master`
 
 # Merging
 Now, it is time to merge your branch into the master and show all your god-like modifications to the Humankind.
