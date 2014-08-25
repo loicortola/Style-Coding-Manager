@@ -1,0 +1,10 @@
+{
+  "myGallery.label.name" : "My Own Gallery",
+  "myGallery.label.description" : "Create your own gallery with your custom images or default images",
+  "myGallery.label.features" : "Custom Images, Theme Picker, ...",
+
+  "option.uploadImage.widgetConf.label": "Upload your images",
+  "option.uploadImage.name" : "Image Upload",
+  "option.picker.widgetConf.label": "Choose your theme",
+  "option.themePicker.name": "Theme Picker"
+}

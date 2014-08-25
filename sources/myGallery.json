@@ -1,0 +1,17 @@
+{
+  "templateTag":"mygallery",
+  "class": "mobi.designmyapp.template.mygallery.MyGalleryGeneration",
+  "options":[
+    "themePicker",
+    "uploadImage"
+  ],
+
+  "targets":["android", "iOS"],
+
+  "templateDescription":{
+    "image":"images/templates/myGalleryIcon.png",
+    "name":"myGallery.label.name",
+    "description":"myGallery.label.description",
+    "features":"myGallery.label.features"
+  }
+}
