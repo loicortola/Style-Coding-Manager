@@ -6,7 +6,7 @@
     "uploadImage"
   ],
 
-  "targets":["android", "iOS"],
+  "targets":["android", "ios"],
 
   "templateDescription":{
     "image":"images/templates/myGalleryIcon.png",
